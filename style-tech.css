@@ -1,0 +1,123 @@
+
+.sectio{
+    color: white;
+    height: 250vh;
+}
+#background-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#background-image h1{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.techno img{
+    border: 2px solid rgb(236, 233, 233) ;
+ }
+ .techno {
+    margin-left: 200px;
+    margin-top: 100px;
+    display: flex;
+ }
+ .techno p{
+    margin-left: 20px;
+    margin-bottom: 50px;
+ }
+ .image img {
+   margin-left:200px ;
+   border: 2px solid rgb(236, 233, 233);
+   margin-top:20px;
+ }
+ .menu a li{
+    color: black;
+ }
+ .detail{
+    display: flex;
+
+ }
+.cadre-pointiller{
+    margin-top: 50px;
+    margin-left: 200px;
+   border: 1px solid;
+   width: 800px;
+   padding: 30px;
+
+}
+.detail1{
+    margin-right: 40px;
+} 
+.detail1,.detail2 {
+    margin-top: 20px;
+    line-height: 30px;
+}
+.cadre-pointiller h1{
+    font-size: 40px;
+}
+.para-p p {
+    margin-top: 30px ;
+    
+}
+#text {
+    margin-left: 100px;
+    line-height: 30px;
+}
+#text img{
+    border: 2px solid rgba(46, 46, 46, 0.548);
+    margin-top: 30px;
+
+}
+.sectio1{
+    color: rgb(145, 141, 141);
+}
+.sectio1 a{
+    color: rgb(64, 64, 240);
+    text-decoration: underline;
+}
+.sectio1 a:hover{
+    color: rgba(37, 37, 37, 0.753);
+}
+.sectio1 ul{
+    margin-bottom: 30px;
+}
+.sectio1 p{
+    margin-bottom: 30px;
+}
+.text1{
+    margin-left: 100px;
+}
+.text1 img{
+    border: 2px solid rgba(46, 46, 46, 0.548);
+    margin-bottom: 30px;
+}
+.test2 {
+    margin-left: 100px;
+}
+.text2 img{
+    border: 2px solid rgba(109, 107, 107, 0.781);
+    margin-bottom: 30px;
+}
+.ref{
+    margin-left: 100px;
+    margin-top: 50px;
+    line-height: 30px;
+}
+.ref h1{
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+} 
+.conclusion{
+    margin-left: 100px;
+}
+ .conclusion h1{
+    color: rgba(0, 0, 0, 0.644);
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 20px;
+} 

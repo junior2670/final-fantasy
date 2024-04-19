@@ -1,0 +1,105 @@
+ 
+ .valider{
+   display: flex;
+   background-color: aliceblue;
+   border: 0px solid;
+   border-radius: 7px;
+   width:950px;
+   height:700px;
+   padding: 20px;
+}
+.sect{
+    display: flex;
+    justify-content: center;
+   padding-top: 70px;
+   
+}
+#detail{
+    margin-left: 20px;
+}
+#detail h1{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+#para{
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: rgba(255, 0, 0, 0.767);
+    padding: 10px;
+    margin-top: 20px;
+}
+.prix p{
+    font-size: 13px;
+    color: rgb(185, 185, 39);
+}
+#livraison{
+    font-size: 13px;
+    color: rgb(53, 131, 53);
+}
+.etoile{
+    display: flex;
+    flex-direction: column; 
+}
+#star{
+    position: absolute;
+    left: 520px;
+}
+.img-star{
+    margin-bottom: 20px;
+    
+}
+.img-star img{
+    margin-top: 20px;
+}
+button{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color:#F68B1E ;
+    border-width: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+button p{
+    font-size: 20px;
+    color: white;
+}
+button img{
+    margin-right: 140px;
+    margin-left: 20px;
+}
+.promo{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    line-height: 40px;
+}
+.footer img{
+    margin-right: 10px;
+}
+#image p{
+    margin-top: 20px;
+}
+#reseau-social{
+    margin-top: 20px;
+}
+#reseau-social i{
+    border: 1px solid;
+    border-radius: 100%;
+    padding: 10px;
+    color: black;
+}
+#reseau-social i:hover{
+    opacity: 0.7;
+}
+#image img{
+    border: 0px solid;
+    border-radius: 5px;
+}
