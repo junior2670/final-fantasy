@@ -165,7 +165,7 @@ header nav .second img{
 }
 footer{
     background-color: black;
-    height: 20vh;
+    height: 25vh;
 }
 footer .copyrigth{
     color: #888484;
@@ -209,4 +209,9 @@ footer .footer{
     }
     footer  .info-footer{
         margin-left: 30px;
+    }
+    .copyrigth {
+        position: absolute;
+        right: 500px;
+        top: 130px;
     }
