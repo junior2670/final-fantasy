@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="style-compte.css ">
+    <link rel="stylesheet" href="styles-compte.css">
     <link rel="shortcut icon" href="/image/Nike-logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
@@ -12,25 +12,25 @@
 <body>
     <header>
         <div class="logo">
-        <a href=""><img src="/image/Nike-logo.png" alt="" width="60px"></a>
+        <a href="index.html"><img src="/image/Nike-logo.png" alt="" width="60px"></a>
        </div>
        <nav>
           
            <ul class="menu">
-              <a href=""> <li> Accueil</li></a>
-               <a href=""><li>Contact</li></a>
-               <a href=""><li>compte</li></a>
-               <a href=""><li>Technologie</li></a>
+              <a href="index.html"> <li> Accueil</li></a>
+               <a href="contact.html"><li>Contact</li></a>
+               <a href="compte.html"><li>compte</li></a>
+               <a href="Technologie.html"><li>Technologie</li></a>
             
            </ul>
             
            <div class="second">
                <div id="icone"><img src="/image/menu.gif" alt=""></div>
                <ul class=" menusecond" id="menusecond">
-                   <a href=""> <li> Accueil</li></a>
-                   <a href=""><li>Contact</li></a>
-                   <a href=""><li>compte</li></a>
-                   <a href=""><li>Technologie</li></a>
+                   <a href="index.html"> <li> Accueil</li></a>
+                   <a href="contact.html"><li>Contact</li></a>
+                   <a href="compte.html"><li>compte</li></a>
+                   <a href="Technologie.html"><li>Technologie</li></a>
                
                </ul> 
         </div>
@@ -41,13 +41,21 @@
    <main>
     <section id="section">
      
-      <img src="" alt=""> 
-      <h1></h1>
-      <p></p>
-      <form action="">
-        <input type="text" name="Nom" id="Nom" placeholder="Entrez votre nom">
-        <input type="text" name="Prenom" id="Prenom" placeholder="Entrez votre  Prenom">
-        <input type="email" name="E-mail" id="E-mail" placeholder="E-mail">
+      <div id="img">
+        <img src="/image/nike.png" alt="">
+      <img src="/image/air-jordan-50 .png" alt="">
+     </div>
+      <h1>Bienvevue </h1>
+      <p>Entrez vos information personnel pour vous <br> connecter ou créer un compte </p>
+      <form action="" id="form">
+        <input type="text" name="Nom" class="Nom" placeholder="Entrez votre nom">
+        <input type="text" name="Prenom" class="Prenom" placeholder="Entrez votre  Prenom">
+        <input type="email" name="E-mail" class="E-mail" placeholder="E-mail">
+       <button>Se connecter</button>
+       <button>S'inscrire</button>
+      <div class="polit-confid">
+        <p>En continuant, j'accepte la <a href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&country=CI&language=fr&requestType=redirect&uxId=4fd2d5e7db76e0f85a6bb56721bd51df" target="_blank">politique de confidentialiter</a> et <a href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=termsOfUse&country=CI&language=fr&requestType=redirect&uxId=4fd2d5e7db76e0f85a6bb56721bd51df" target="_blank"> les conditions d'utilisateurs</a> de Nike.</p>
+      </div>
       </form>
     </section>
 
@@ -56,12 +64,12 @@
     <footer>
         <div class=" footer">
             <div class="info-footer">
-                 <a href=""> a propos de Nike Alphafly</a>
-                 <a href="">
-                    politique de confidentialiter de Nike
-                 </a>
-                 <a href=""> appel à l'action</a>
-            </div>
+                <a href="Technologie.html"> a propos de Nike Alphafly</a>
+                <a href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.commerce.nikedotcom.web&country=US&language=en&requestType=redirect" target="_blank">
+                   politique de confidentialiter de Nike
+                </a>
+                <a href="contact.html">appel à l'action</a>
+           </div>
             <div class="reseau-social"> 
                 <a href="https://twitter.com/Nike">
                     <i class="fa-brands fa-x-twitter"></i>  
@@ -72,7 +80,7 @@
             </div>
         </div>
         <div class="copyrigth">
-            <a href=""><img src="/image/nike.png" alt=""></a>
+            <a href="index.html"><img src="/image/Nike-logo.png" alt=""></a>
             <p>© 2024 Nike et kkoj, Inc. Tous droits réservé</p>
 
         </div>

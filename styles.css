@@ -211,7 +211,32 @@ footer .footer{
         margin-left: 30px;
     }
     .copyrigth {
-        position: absolute;
-        right: 500px;
-        top: 130px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     margin-top: -70px;
+    }
+    #command a{
+        color: white;
+       
+    }
+    #command{
+        width: 200px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 0px solid;
+        border-radius: 30px;
+        background: black;
+
+        cursor: pointer;
+        margin-bottom: 20px;
+    }
+    #command:hover{
+        background-color: rgb(71, 69, 69);
+    }
+    .info{
+        margin-bottom: 30px;
     }

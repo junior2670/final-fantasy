@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
     <link rel="shortcut icon" href="/image/Nike-logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style-home.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
@@ -11,25 +12,25 @@
 <body>
     <header>
          <div class="logo">
-         <a href=""><img src="/image/Nike-logo.png" alt="" width="60px"></a>
+         <a href="index.html"><img src="/image/Nike-logo.png" alt="" width="60px"></a>
         </div>
         <nav>
            
             <ul class="menu">
-               <a href=""> <li> Accueil</li></a>
-                <a href=""><li>Contact</li></a>
-                <a href=""><li>compte</li></a>
-                <a href=""><li>Technologie</li></a>
+               <a href="index.html"> <li> Accueil</li></a>
+                <a href="contact.html"><li>Contact</li></a>
+                <a href="compte.html"><li>compte</li></a>
+                <a href="Technologie.html"><li>Technologie</li></a>
              
             </ul>
              
             <div class="second">
                 <div id="icone"><img src="/image/menu.gif" alt=""></div>
                 <ul class=" menusecond" id="menusecond">
-                    <a href=""> <li> Accueil</li></a>
-                    <a href=""><li>Contact</li></a>
-                    <a href=""><li>compte</li></a>
-                    <a href=""><li>Technologie</li></a>
+                    <a href="index.html"> <li> Accueil</li></a>
+                    <a href="contact.html"><li>Contact</li></a>
+                    <a href="compte.html"><li>compte</li></a>
+                    <a href="Technologie.html"><li>Technologie</li></a>
                 
                 </ul> 
          </div>
@@ -38,7 +39,79 @@
        
     </header>
     <main>
-        <section class="section">
+        <section class="shoes">
+            <div class="contains">
+                <div class="slide">
+                    <div class="item" style="background-image: url(/image/hom.png);">
+                        <div class="content">
+        
+                            <div class="name">Nike Alphafly 3</div>
+        
+                            <div class="des">La chaussures du record du monde</div>
+        
+                            <button><a href="#section">voir plus</a></button>
+        
+                        </div>
+        
+                    </div>
+                    <div class="item" style="background-image: url(image/hom2.png);">
+                        <div class="content">
+        
+                            <div class="name">Nike Alphafly 3</div>
+        
+                            <div class="des">la chaussure a la technologie revolutionnaire </div>
+                            
+                            <button><a href="#section"></a>voir plus</button>
+        
+                        </div>
+        
+                    </div>
+                    <div class="item" style="background-image: url(/image/hom3.png);">
+                        <div class="content">
+        
+                            <div class="name">Nike Alphafly 3</div>
+        
+                            <div class="des">la chaussure la plus porformente possédent une semelle en plaque carbone </div>
+                            
+                            <button><a href="#section"></a>voir plus</button>
+        
+                        </div>
+                    </div>
+                        <div class="item hom" style="background-image: url(/image/hom4\ \(1\).png);">
+                            <div class="content">
+            
+                                <div class="name">lorem4</div>
+            
+                                <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                                
+                                <button><a href="#section"> <a href="#section">voir plus</a></a></button>
+            
+                            </div>
+                        </div>
+                            <div class="item" style="background-image: url(/image/hom5.png);">
+                                <div class="content">
+                
+                                    <div class="name">lorem4</div>
+                
+                                    <div class="des">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                                    
+                                    <button><a href="#section"> voir plus</a></button>
+                
+                                </div>
+        
+                            </div>
+                        
+            </div>
+            <div class="button">
+                <button class="prev" onclick="slidernext()"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next" onclick=""><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <script src="commande.js">
+        
+            </script>
+            
+        </section>
+        <section class="section" id="section">
             <div class="contains">
                 <div class="content-slider">
                     <div class="slider">
@@ -89,6 +162,9 @@
                     </div>
                     <p class="parag"> Affiné pour la vitesse du marathon, l'Alphafly 3<br> vous aide à aller au-delà de ce que vous
                         pensiez<br>  possible. Trois technologies innovantes <br> alimentent votre course : une double dose<br> d'unités Air Zoom vous aide à passer à l'étape<br> suivante ; une plaque en fibre de carbone sur <br> toute la longueur vous aide à avancer facilement ;<br> et une semelle intercalaire en mousse ZoomX <br>du talon aux orteils vous aide à rester au frais du <br>début au 26.2. Il est temps de laisser vos anciens <br>dossiers personnels dans la poussière.</p>
+                    <div id="command">
+                        <a href="commande.html">commander</a>
+                    </div>
                     <ul>
                         <li>Couleur affichée : Volt/Dusty Cactus/Orange <br> total/Concorde</li>
                         <li>Modèle : FD8311-700</li>
@@ -177,12 +253,12 @@
     <footer>
         <div class=" footer">
             <div class="info-footer">
-                 <a href=""> a propos de Nike Alphafly</a>
-                 <a href="">
-                    politique de confidentialiter de Nike
-                 </a>
-                 <a href=""> appel à l'action</a>
-            </div>
+                <a href="Technologie.html"> a propos de Nike Alphafly</a>
+                <a href="https://agreementservice.svs.nike.com/rest/agreement?agreementType=privacyPolicy&uxId=com.nike.commerce.nikedotcom.web&country=US&language=en&requestType=redirect" target="_blank">
+                   politique de confidentialiter de Nike
+                </a>
+                <a href="contact.html">appel à l'action</a>
+           </div>
             <div class="reseau-social"> 
                 <a href="https://twitter.com/Nike">
                     <i class="fa-brands fa-x-twitter"></i>  
@@ -193,7 +269,7 @@
             </div>
         </div>
         <div class="copyrigth">
-            <a href=""><img src="/image/nike.png" alt=""></a>
+            <a href="index.html"><img src="/image/Nike-logo.png" alt=""></a>
             <p>© 2024 Nike et kkoj, Inc. Tous droits réservé</p>
 
         </div>
