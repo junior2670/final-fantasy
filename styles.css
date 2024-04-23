@@ -19,7 +19,7 @@ header{
     height: 10vh;
     background-color:white;
 }
-header .menu{
+header .Nike{
     display: flex;
     list-style: none;
     margin-top: 5px; 
@@ -28,7 +28,7 @@ header .logo{
     margin-left: 50px;
     width: 70px;
 }
-header .menu a{
+header .Nike a{
     color: #3f3d3d;
     margin-right: 10px;
     font-weight: bold;
@@ -42,6 +42,7 @@ header nav{
     .menu a{
         display: none;
     }
+   
     
 }
 header nav .menusecond{
@@ -240,4 +241,7 @@ footer .footer{
     }
     .info{
         margin-bottom: 30px;
+    }
+    .shoes{
+        margin-top: 50px;
     }
