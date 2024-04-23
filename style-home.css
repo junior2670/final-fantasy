@@ -134,7 +134,7 @@ body{
 }
 .slide .item:nth-child(1),
 .slide .item:nth-child(2){
-    top: 80px;
+    top: 110px;
     left: 0;
     transform: translate(0,0);
     border-radius: 0px;
