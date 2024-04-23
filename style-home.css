@@ -10,7 +10,7 @@ body{
 .contains .slide .item{
     width: 200px ;
     height: 300px;
-    position: absolute;
+     position: absolute;
     top: 50%;
     transform: translate(0,-50%);
     border-radius: 20px;
@@ -42,7 +42,7 @@ body{
     left: calc(50% + 660px);
  }
  .item .content{
-    position: absolute;
+     position: absolute; 
     top: 50%;
     left: 100px;
     width: 300px;
