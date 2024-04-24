@@ -125,3 +125,20 @@ button img{
     padding-right: 15px;
     background-color: rgba(36, 35, 35, 0.781);
 }
+#icone{
+    display: none;
+}
+@media  screen and (max-width:780px) {
+    #icone{
+        display: block;
+    } 
+    .menu-hidden{
+        visibility: hidden;
+    }
+
+}
+@media  screen and (min-width:780px){
+    .menusecond{
+        visibility: hidden;
+    }
+}
