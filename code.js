@@ -13,16 +13,16 @@ var inscri=document.getElementById("buton-inscri")
 //fonction de la nav barre 
 function apparaitre(){
     var menusecond=document.getElementById("menusecond")
-    if(  menusecond.style.display='none'){
+    if(  menusecond.style.display=='none'){
         menusecond.style.display='block'
+        menusecond.style.transition='0.8s'
     }
-   }
-   function diparaitre(){
-    var menusecond=document.getElementById("menusecond")
-    if(  menusecond.style.display='block'){
+    else{
         menusecond.style.display='none'
+        menusecond.style.transition='0.8s'
     }
    }
+
 //fonction pour les inscription au compte
 function inscription(){
     var message=document.getElementById("message")
@@ -30,7 +30,7 @@ function inscription(){
     message.style.transition="0.8s"
 }
 
-//function pour les connection 
+//function pour les connexion 
 function connection(){
     var message=document.getElementById("message1")
     message.style.top="120px"
@@ -45,7 +45,7 @@ function connection(){
 */
 iconemenu.addEventListener("click",apparaitre)
 
-iconemenu.addEventListener("dblclick", diparaitre)
+
 
 
 inscri.addEventListener("click", inscription)
